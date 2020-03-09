@@ -152,7 +152,7 @@
       $.ajax({
 
 	      type: "POST",
-	      url: "inc/sendEmail.php",
+	      url: "https://formspree.io/meqkbeky",
 	      data: data,
 	      success: function(msg) {
 

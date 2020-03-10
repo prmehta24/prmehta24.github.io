@@ -2,9 +2,9 @@
   "main": {
     "name":"Parimal Mehta",
     "occupation":"Software Engineer",
-    "description":"Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
+    "description":"I am an enthusiastic developer with over a year of experience and an always learning mindset",
     "image":"profilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+    "bio":"Born in Boston and growing up in Ahmedabad, I have gained a well-rounded education and a strong programming foundation. I am particularly fond of Java - my first language and Python for its flexibility. Besides coding, I am also a voracious reader of sci-fi, fantasy, and mystery novels.",
     "contactmessage":"Let's talk!",
     "email": "prmehta24@gmail.com",
     "phone": "213-282-6536",
@@ -40,42 +40,116 @@
       {
         "school":"Institute of Technology, Nirma University",
         "degree":"Bachelor of Technology in Computer Engineering",
-        "graduated":"May 2020",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "graduated":"August 2016 - May 2020",
+        "description":"I am part of the Society of Automotive Engineers(SAE) and Association of Computer Engineering Students(ACES). Through college, I have been introduced to a breadth of experiences including internships, research, online courses, and team-based competitions."
       },
       {
         "school":"Anand Niketan Satellite",
         "degree":"HSC/SSC",
         "graduated":"March 2016",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "description":"I gained a strong foundation in the sciences, mathematics, and computer science at school. I was taught Java and OOP concepts here."
       }
     ],
 	"courses":[
       {
-        "school":"Institute of Technology, Nirma University",
         "title":"Artificial Intelligence",
-        "years":"July 2019 - Dec 2019",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "description":"Prolog, A* Algorithm, BFS, DFS"
       },
       {
-        "school":"Institute of Technology, Nirma University",
-        "title":"Compiler Construction",
-        "years":"July 2019 - Dec 2019",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "title":"Data Structures",
+        "description":"Link Lists, Queues, Stacks"
+      },
+      {
+        "title":"Art of Programming",
+        "description":"C, pointers"
+      },
+      {
+        "title":"Database Management Systems",
+        "description":"SQL, Oracle DB, PL/SQL"
+      },
+      {
+        "title":"Computer Organisation",
+        "description":"Registers, Instruction Sets, Memory"
+      },
+      {
+        "title":"Design and Analysis of Algorithms",
+        "description":"Dynamic Programming, Assignment Problem, Traveling Salesman"
+      },
+      {
+        "title":"GIS and Remote Sensing",
+        "description":"ArcGIS"
+      },
+      {
+        "title":"Internet of Things",
+        "description":"Arduino, RaspberryPi"
+      },
+      {
+        "title":"Machine Learning",
+        "description":"ANN, Clustering, Regression"
+      },
+      {
+        "title":"Object Oriented Programming",
+        "description":"Java, Swing"
+      },
+      {
+        "title":"Software Engineering",
+        "description":"Agile, SDLC, Requirements"
+      },
+      {
+        "title":"Web Designing",
+        "description":"HTML5, CSS3, JavaScript"
+      },
+      {
+        "title":"Deep Learning",
+        "description":"CNN, GAN, YOLO"
+      },
+      {
+        "title":"Open Source Development Lab",
+        "description":"Perl, Python, Blogging"
       }
     ],
 	"certifications":[
       {
-        "authority":"IIT Bombay",
-        "title":"Python Training",
-        "years":"May 2020",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "authority":"edX, Nirma University",
+        "title":"Algorithms for Intelligent Navigation",
+        "years":"July 2019",
+        "description":"SLAM"
       },
       {
         "authority":"Coursera, Nirma University",
-        "title":"Python for Everybody",
-        "years":"May 2020",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "title":"IBM Blockchain Foundation for Developers",
+        "years":"Dec 2018",
+        "description":"Blockchain, Solidity"
+      },
+      {
+        "authority":"edX, Nirma University",
+        "title":"Programming for the Web with JavaScript",
+        "years":"July 2018",
+        "description":"HTML, CSS, JS, React"
+      },
+      {
+        "authority":"Indian Institute of Technology, Bombay",
+        "title":"Python Training - Spoken Tutorial Project",
+        "years":"April 2018",
+        "description":"Python Basics"
+      },
+      {
+        "authority":"Udacity, Nirma University",
+        "title":"Intro to Artificial Intelligence",
+        "years":"Aug 2017",
+        "description":"A* Algorithm, NLP"
+      },
+      {
+        "authority":"NPTEL, Hasura",
+        "title":"Introduction to Modern Application Development(IMAD)",
+        "years":"Aug 2017",
+        "description":"Android, iOS, UI, Web"
+      },
+      {
+        "authority":"Coursera, Nirma University",
+        "title":"Programming for Everybody(Getting Started with Python)",
+        "years":"Jan 2017",
+        "description":"Programming Basics"
       }
     ],
     "work":[
@@ -83,7 +157,7 @@
         "company":"Commonwealth Care Alliance",
         "title":"Software Engineering Co-op ",
         "years":"Jan 2020 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "description":" The main project I am working on is redesigning the 834 file validation process(written in PL/SQL) for Member Enrollment. Besides that, I am developing an operational dashboard to display metrics from various security tools in one place. I am also using SharePoint to automate CCA's manual invoicing process. Lastly, I am developing features and testing the new Intranet and the new Provider Directory."
       },
       {
         "company":"Blecan Innovations Pvt. Limited",

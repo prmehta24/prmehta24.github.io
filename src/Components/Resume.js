@@ -12,7 +12,6 @@ class Resume extends Component {
       })
 	  var courses = this.props.data.courses.map(function(courses){
         return <div key={courses.title}><h3>{courses.title}</h3>
-        <p className="info">{courses.school} <span>&bull;</span><em className="date">{courses.years}</em></p>
         <p>{courses.description}</p></div>
       })
 	  var certifications = this.props.data.certifications.map(function(certifications){

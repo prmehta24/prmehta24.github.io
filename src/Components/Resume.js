@@ -8,7 +8,8 @@ class Resume extends Component {
       var education = this.props.data.education.map(function(education){
         return <div key={education.school}><h3>{education.school}</h3>
         <p className="info">{education.degree} <span>&bull;</span><em className="date">{education.graduated}</em></p>
-        <p>{education.description}</p></div>
+        <ul>{education.description.map(item => <li key={item}> {item} </li>)}</ul>
+		</div>
       })
 	  var courses = this.props.data.courses.map(function(courses){
         return <div key={courses.title}><h3>{courses.title}</h3>
@@ -22,19 +23,19 @@ class Resume extends Component {
       var work = this.props.data.work.map(function(work){
         return <div key={work.company}><h3>{work.company}</h3>
             <p className="info">{work.title}<span>&bull;</span> <em className="date">{work.years}</em></p>
-            <p>{work.description}</p>
+			<ul>{work.description.map(item => <li key={item}> {item} </li>)}</ul>
         </div>
       })
 	  var research = this.props.data.research.map(function(research){
         return <div key={research.institute}><h3>{research.institute}</h3>
             <p className="info">{research.title}<span>&bull;</span> <em className="date">{research.years}</em></p>
-            <p>{research.description}</p>
+            <ul>{research.description.map(item => <li key={item}> {item} </li>)}</ul>
         </div>
       })
 	  var volunteer = this.props.data.volunteer.map(function(volunteer){
         return <div key={volunteer.institute}><h3>{volunteer.institute}</h3>
             <p className="info">{volunteer.title}<span>&bull;</span> <em className="date">{volunteer.years}</em></p>
-            <p>{volunteer.description}</p>
+            <ul>{volunteer.description.map(item => <li key={item}> {item} </li>)}</ul>
         </div>
       })
       var skills = this.props.data.skills.map(function(skills){

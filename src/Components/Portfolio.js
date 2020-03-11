@@ -6,19 +6,19 @@ class Portfolio extends Component {
       var projects = this.props.data.projects.map(function(projects){
         return <div key={projects.title}><h3>{projects.title}</h3>
             <p className="info">{projects.technologies}<span>&bull;</span> <em className="date">{projects.years}</em></p>
-            <p>{projects.description}</p>
+            <ul>{projects.description.map(item => <li key={item}> {item} </li>)}</ul>
         </div>
       })
 	  var publications = this.props.data.publications.map(function(publications){
         return <div key={publications.title}><h3>{publications.title}</h3>
             <p className="info">{publications.published}<span>&bull;</span> <em className="date">{publications.years}</em></p>
-            <p>{publications.description}</p>
+            <ul>{publications.description.map(item => <li key={item}> {item} </li>)}</ul>
         </div>
       })
 	  var competitions = this.props.data.competitions.map(function(competitions){
         return <div key={competitions.title}><h3>{competitions.title}</h3>
             <p className="info">{competitions.authority}<span>&bull;</span> <em className="date">{competitions.years}</em></p>
-            <p>{competitions.description}</p>
+            <ul>{competitions.description.map(item => <li key={item}> {item} </li>)}</ul>
         </div>
       })
     }

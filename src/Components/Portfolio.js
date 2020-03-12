@@ -7,12 +7,14 @@ class Portfolio extends Component {
         return <div key={projects.title}><h3>{projects.title}</h3>
             <p className="info">{projects.technologies}<span>&bull;</span> <em className="date">{projects.years}</em></p>
             <ul>{projects.description.map(item => <li key={item}> {item} </li>)}</ul>
+            {projects.url!="" ? <p><a href={projects.url}>View Project.</a></p> : ""}
         </div>
       })
 	  var publications = this.props.data.publications.map(function(publications){
         return <div key={publications.title}><h3>{publications.title}</h3>
             <p className="info">{publications.published}<span>&bull;</span> <em className="date">{publications.years}</em></p>
             <ul>{publications.description.map(item => <li key={item}> {item} </li>)}</ul>
+            {publications.url!="" ? <p><a href={publications.url}>View Publication.</a></p> : ""}
         </div>
       })
 	  var competitions = this.props.data.competitions.map(function(competitions){

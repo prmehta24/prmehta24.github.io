@@ -5,6 +5,7 @@
     "description":"I am an enthusiastic developer with over a year of experience and an always learning mindset",
     "image":"profilepic.jpg",
     "bio":["Born in Boston and growing up in Ahmedabad, I have gained a well-rounded education and a strong programming foundation. I am particularly fond of Java - my first language and Python for its flexibility. Besides coding, I am also a voracious reader of sci-fi, fantasy, and mystery novels."],
+    "objective":["I am a quick study and a detail-oriented individual seeking to solve real problems, contribute to company goals, and make the lives of people better. I am looking for an opportunity where I can learn a lot and work collaboratively with an enthusiastic and dynamic team on next-level technology."],
     "contactmessage":"Let's talk!",
     "email": "prmehta24@gmail.com",
     "phone": "213-282-6536",
@@ -42,7 +43,7 @@
         "degree":"Bachelor of Technology in Computer Engineering",
         "graduated":"August 2016 - May 2020",
         "description":["Clubs: Society of Automotive Engineers(SAE) and Association of Computer Engineering Students(ACES).",
-        "CGPA: 8.00/10 GRE: 332 TOEFL: 115",
+        "CGPA: 8.00/10 GRE: 332 TOEFL: 114",
         "Through college, I have been introduced to a breadth of experiences including internships, research, online courses, and team-based competitions."]
       },
       {
@@ -374,7 +375,7 @@
 	    {
     "title":"'VAHAK: A Blockchain-based Outdoor Delivery Scheme using UAV for Healthcare 4.0 Services",
     "published":"DroneCom 2020",
-		"years":"Dec 2017 - Feb 2018",
+		"years":"July 2020",
 		"description":["This implementation paper is about blockchain-based drones for emergency deliveries."],
     "url":""
       },

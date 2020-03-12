@@ -60,18 +60,19 @@ class Contact extends Component {
                   </div>
 
                   <div>
+                     <input type="hidden" name="_next" value="https://prmehta24.github.io/"/>
                      <button type="submit" className="submit">Send</button>
-                     <span id="image-loader">
+                     {/* <span id="image-loader">
                         <img alt="" src="images/loader.gif" />
-                     </span>
+                     </span> */}
                   </div>
 					</fieldset>
 				   </form>
 
-				   <div id="message-warning"> Error </div>
+				   {/* <div id="message-warning"> Error </div>
 				   <div id="message-success">
                   <i className="fa fa-check"></i>Your message was sent, thank you!<br />
-				   </div>
+				   </div> */}
            </div>
 
 

@@ -1,4 +1,15 @@
+
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Deployment
+
+Check out https://medium.com/swlh/deploying-react-apps-to-github-pages-on-master-branch-creating-a-user-site-bc96c2a37dc8 for instructions on how to deploy to GitHub Pages after making local edits on dev branch.
 
 ## Available Scripts
 

@@ -3,6 +3,8 @@ import { Tabs, Tab, TabPanel, TabList } from 'react-web-tabs';
 class Resume extends Component {
   render() {
 
+
+
     if(this.props.data){
       var skillmessage = this.props.data.skillmessage;
       var education = this.props.data.education.map(function(education){
@@ -45,7 +47,7 @@ class Resume extends Component {
     }
 
     return (
-      <section id="resume">
+      <section id="resume">  
 	    <div className="row education">
 			<Tabs defaultTab="education" vertical>
 				<div className="three columns header-col">
